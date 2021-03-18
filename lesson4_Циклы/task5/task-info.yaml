@@ -1,0 +1,17 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 56
+    length: 8
+    placeholder_text: '...  # TODO получить значение первого элемента'
+  - offset: 139
+    length: 44
+    placeholder_text: |-
+      # TODO посчитать количество элементов больше первого
+          ...
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

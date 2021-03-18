@@ -1,0 +1,17 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 40
+    length: 238
+    placeholder_text: |-
+      # TODO посчитать количество четных и нечетных чисел
+          ...
+  - offset: 40
+    length: 238
+    placeholder_text: '...:  # TODO Сравнить количество четных и нечетных чисел'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

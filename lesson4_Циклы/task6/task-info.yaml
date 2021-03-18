@@ -1,0 +1,20 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 6
+    length: 1
+    placeholder_text: '...  # TODO заводим переменную для произведениея'
+  - offset: 28
+    length: 6
+    placeholder_text: '...'
+  - offset: 41
+    length: 12
+    placeholder_text: |-
+      # TODO посчитать произведение
+          ...
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

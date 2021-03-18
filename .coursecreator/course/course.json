@@ -1,0 +1,504 @@
+{
+  "environment" : "unittest",
+  "summary" : "Python course.\nCreated: Mar 18, 2021, 7:35:57 PM.",
+  "title" : "Python Course2 Lesson 2",
+  "programming_language" : "Python",
+  "language" : "en",
+  "course_type" : "PyCharm",
+  "items" : [ ],
+  "additional_files" : [
+    {
+      "name" : "lesson4_Циклы/task1/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "if __name__ == \"__main__\":\n    # Write your solution here\n    pass\n"
+    },
+    {
+      "name" : "lesson4_Циклы/task1/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson4_Циклы/task2/tests/output.txt",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "5\n"
+    },
+    {
+      "name" : "lesson4_Циклы/task2/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "list_numbers = list(range(15, 25))\n\ncount_even = 0  # количество четных чисел\n\nfor value in list_numbers:  # перебираем все числа\n    if value % 2 == 0:\n        count_even += 1\n\nprint(count_even)\n"
+    },
+    {
+      "name" : "lesson4_Циклы/task2/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson4_Циклы/task3/tests/output.txt",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "[5, 6, 7, 8, 10.5, 10, 11, 12, 13, 14, 15, 16]\n"
+    },
+    {
+      "name" : "lesson4_Циклы/task3/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "list_numbers = list(range(5, 17))\n\nlist_numbers[4] = sum(list_numbers) / len(list_numbers)\n\nprint(list_numbers)\n"
+    },
+    {
+      "name" : "lesson4_Циклы/task3/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson4_Циклы/task4/tests/output.txt",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "Четных чисел больше\n"
+    },
+    {
+      "name" : "lesson4_Циклы/task4/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "list_ = [3, 4, 8, 9, 6, 6, 2, 4, 3, 3]\n\ncount_even = 0  # количество четных чисел\ncount_odd = 0  # количество нечетных чисел\n\nfor value in list_:  # перебираем все числа\n    if value % 2 == 0:\n        count_even += 1\n    else:\n        count_odd += 1\n\nif count_even > count_odd:\n    print('Четных чисел больше')\nelse:\n    print('Нечетных чисел больше')\n"
+    },
+    {
+      "name" : "lesson4_Циклы/task4/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson4_Циклы/task5/tests/output.txt",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "6\n"
+    },
+    {
+      "name" : "lesson4_Циклы/task5/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "list_ = [3, 4, 8, 9, 6, 6, 2, 4, 3, 3]\n\nfirst_element = list_[0]\ncount = 0\n\nfor value in list_:  # перебираем числа, все кроме первого\n    if value > first_element:\n        count += 1\n\nprint(count)\n"
+    },
+    {
+      "name" : "lesson4_Циклы/task5/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson4_Циклы/task6/tests/output.txt",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "6704425728000\n"
+    },
+    {
+      "name" : "lesson4_Циклы/task6/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "mul = 1\n\nfor value in range(10, 21):\n    mul *= value\n    \nprint(mul)\n"
+    },
+    {
+      "name" : "lesson4_Циклы/task6/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson5_homework/task1/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "A = ...\nB = ...\nC = ...\n\nif ((A < 45) and (B >= 45) and (C >= 45)) or \\\n    ((A >= 45) and (B < 45) and (C >= 45)) or \\\n    ((A >= 45) and (B >= 45) and (C < 45)):\n    print('Есть число меньше 45 и только одно')\nelse:\n    print('Числа меньше 45 нет или их несколько')\n"
+    },
+    {
+      "name" : "lesson5_homework/task1/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson5_homework/task2/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "A = ...\n\nif not (-10 <= A <= -1 or 2 <= A <= 15):\n    print(\"Число не принадлежит интервалу\")\nelse:\n    print(\"Число принадлежит интервалу\")\n"
+    },
+    {
+      "name" : "lesson5_homework/task2/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson5_homework/task3/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "numbers = (3, 4, -8, 9, 6, 6, -2, 4, -3, 3)\n"
+    },
+    {
+      "name" : "lesson5_homework/task3/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson5_homework/task4/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "numbers = (3, 4, -8, 9, 6, 6, -2, 4, -3, 3)\n"
+    },
+    {
+      "name" : "lesson5_homework/task4/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson5_homework/task5/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "numbers = (3, 4, -8, 9, 6, 6, -2, 4, -3, 3)\n"
+    },
+    {
+      "name" : "lesson5_homework/task5/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson6_external/task1/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson6_external/task1/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson6_external/task2/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson6_external/task2/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson6_external/task3/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson6_external/task3/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson6_external/task4/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson6_external/task4/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson1_Условные_операторы/task1/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "print(\"5 больше 10?\", 5 > 10)\nprint(\"5 равно 10?\", 5 == 10)\nprint(\"5 неравно 5\", 5 != 5)\n\nprint()\n\nprint(\"5 меньше или равно 10?\", 5 <= 10)\nprint(\"5 меньше или равно 5?\", 5 <= 5)\nprint(\"5 равно 5?\", 5 == 5)\n"
+    },
+    {
+      "name" : "lesson1_Условные_операторы/task1/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson1_Условные_операторы/task2/tests/output.txt",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "True\n"
+    },
+    {
+      "name" : "lesson1_Условные_операторы/task2/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "print(20 < 30)  # TODO\n"
+    },
+    {
+      "name" : "lesson1_Условные_операторы/task2/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson1_Условные_операторы/task3/tests/output.txt",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "True\n"
+    },
+    {
+      "name" : "lesson1_Условные_операторы/task3/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "condition = 20 != 100\n\nprint(condition)\n"
+    },
+    {
+      "name" : "lesson1_Условные_операторы/task3/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson1_Условные_операторы/task4/tests/output.txt",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "False\n"
+    },
+    {
+      "name" : "lesson1_Условные_операторы/task4/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "condition = 20 <= 11\n\nprint(condition)\n"
+    },
+    {
+      "name" : "lesson1_Условные_операторы/task4/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson2_Логические_операторы/task1/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "if __name__ == \"__main__\":\n    # Write your solution here\n    pass\n"
+    },
+    {
+      "name" : "lesson2_Логические_операторы/task1/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson2_Логические_операторы/task2/tests/output.txt",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "True\n"
+    },
+    {
+      "name" : "lesson2_Логические_операторы/task2/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "print(True or False)  # True\n"
+    },
+    {
+      "name" : "lesson2_Логические_операторы/task2/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson2_Логические_операторы/task3/tests/output.txt",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "False\n"
+    },
+    {
+      "name" : "lesson2_Логические_операторы/task3/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "print(True and False)  # False\n"
+    },
+    {
+      "name" : "lesson2_Логические_операторы/task3/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson2_Логические_операторы/task4/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson2_Логические_операторы/task4/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson2_Логические_операторы/task5/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "\n"
+    },
+    {
+      "name" : "lesson2_Логические_операторы/task5/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson2_Логические_операторы/task6/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "if __name__ == \"__main__\":\n    # Write your solution here\n    pass\n"
+    },
+    {
+      "name" : "lesson2_Логические_операторы/task6/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task1/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "if __name__ == \"__main__\":\n    # Write your solution here\n    pass\n"
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task1/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task2/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "s = 5\na = 10\nif a > 0:\n    s += a\nelse:\n    s -= a\n"
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task2/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task3/tests/output.txt",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task3/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "if __name__ == \"__main__\":\n    # Write your solution here\n    pass\n"
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task3/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task4/tests/output.txt",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "'Число number кратно 2 или 3'\n"
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task4/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "number = 12\n\nif number % 2 == 0 or number % 3 == 0:\n    print('Число number кратно 2 или 3')\n"
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task4/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task5/tests/output.txt",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "'Числа А и B нечетные'\n"
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task5/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "A = 5\nB = 7\n\nif A % 2 == 1 and B % 2 == 1:\n    print('Числа А и B нечетные')\n"
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task5/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task6/tests/output.txt",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "\"Утро!!!\"\n"
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task6/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "hour = 10\n\nif 6 <= hour < 12:\n    print(\"Утро!!!\")\n"
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task6/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task7/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "mount = int(input())\n\nif mount in [3, 4, 5]:\n    print(\"Весна\")\nelif mount in [6, 7, 8]:\n    print(\"Лето\")\nelif mount in [9, 10, 11]:\n    print(\"Осень\")\nelif mount in [12, 1, 2]:\n    print(\"Зима\")\n"
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task7/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task8/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "wind = int(input())\n\n# TODO\n"
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task8/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task9/main.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "if __name__ == \"__main__\":\n    # Write your solution here\n    pass\n"
+    },
+    {
+      "name" : "lesson3_Условные_конструкции/task9/__init__.py",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : ""
+    }
+  ],
+  "version" : 11
+}

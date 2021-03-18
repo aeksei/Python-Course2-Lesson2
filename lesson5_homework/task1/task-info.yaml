@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 28
+    length: 135
+    placeholder_text: '...:  # TODO Записать логическое условие'
+- name: __init__.py
+  visible: false

@@ -1,0 +1,14 @@
+title: PY100-lesson2
+language: English
+summary: |-
+  Python course.
+  Created: Mar 13, 2021, 5:33:22 PM.
+programming_language: Python
+environment: unittest
+content:
+- lesson1_Условные_операторы
+- lesson2_Логические_операторы
+- lesson3_Условные_конструкции
+- lesson4_Циклы
+- lesson5_homework
+- lesson6_external
